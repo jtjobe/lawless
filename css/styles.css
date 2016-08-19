@@ -1,0 +1,96 @@
+/* Reset */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* General Styling */
+body {
+	color: #fcfcfc;
+	font: 14px 'Raleway', sans-serif;
+	background: #fff;
+}
+
+a{
+	text-decoration: none;
+	outline: none;
+	color: #54a6de;
+}
+
+/* Custom Styling*/
+.container-fluid {
+	width: 80%;
+	margin: 10px auto;
+}
+
+.logo{
+	margin: 0 auto;
+	max-width: 20%;
+}
+
+/* Nav Styling*/
+#navbar{
+	display: block;
+	height: 40px;
+	background: #1ba8a7;
+	text-align: center;
+}
+
+#navbar a{
+	color: #fff;
+	display: inline-block;
+	height: 40px;
+	line-height: 37px;
+	padding: 0 15px;
+}
+
+#navbar a.active, #navbar a:hover{
+	background: #13bfbe;
+}
+
+/* Content Styling*/
+#main{
+	display: inline;
+	/*overflow: auto;*/
+	width: 80%;
+	min-height: 475px;
+	clear: all;
+}
+
+#main #gallery{
+	margin: 0 auto;
+}
+
+#main img{
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#main li{
+	float: left;
+	max-width: 30%;
+	list-style: none;
+	margin: 6px;
+	position: relative;
+/*	-moz-box-shadow: 0 0 5px #000;
+	-webkit-box-shadow: 0 0 5px #000;
+	box-shadow: 0 0 5px #000;*/
+}
+
+#main ul{
+	margin: 0 auto;
+	/*overflow: hidden;*/
+}
+
+#main ul.hidden{
+	display: none;
+}
+
+footer{
+	text-align: center;
+	color: #333;
+	font-size: 16px;
+	padding-top: 100px ;
+	margin: 0 auto;
+}
+
