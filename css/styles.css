@@ -6,7 +6,7 @@
 
 /* =========NAV==========*/
 .container-fluid {
-	width: 70%;
+	width: 95%;
 	margin: 10px auto;
 }
 
@@ -105,6 +105,7 @@
 #portrait {
 	padding: 15px;
 	margin: 0 auto;
+	border-radius: 50%;
 }
 
 #bio p{
@@ -147,9 +148,17 @@
 	font-family: 'News Cycle', sans-serif; 
 	font-size: 1.2em;
 }
+#all-contact h3{
+	text-transform: uppercase;
+}
 
 #contact{
-	width: 70%;
+	width: 80%;
+}
+
+#filler{
+	width:85%;
+	margin: 20px; auto;
 }
 
 .submit-btn{
@@ -169,7 +178,7 @@ footer{
 	bottom: 0; 
 	left: 0;
 	right: 0;
-	padding-top: 150px;
+	
 	height: 30px;
 }
 #footer-nav{
